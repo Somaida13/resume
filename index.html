@@ -43,12 +43,15 @@
 
   <main>
     <!-- HERO / Profil Singkat -->
-    <section id="home" class="hero container">
+   <section id="home" class="hero container">
       <div class="hero-grid">
         <div class="profile-card reveal">
           <div class="avatar" aria-hidden="true">
-            <!-- Simple SVG circle with initials for placeholder -->
-            <svg viewBox="0 0 120 120" class="avatar-svg" role="img" aria-label="Foto MH Somaida">
+            <!-- Photo: letakkan file Anda di assets/photo.jpg (atau ganti src) -->
+            <img class="avatar-img" src="../Portofolio/Img/hasymi.png" alt="Foto MH Somaida" width="120" height="120">
+
+            <!-- SVG fallback yang akan ditampilkan bila foto gagal dimuat -->
+            <svg class="avatar-svg" viewBox="0 0 120 120" role="img" aria-label="Foto MH Somaida (fallback)">
               <defs>
                 <linearGradient id="g1" x1="0" x2="1">
                   <stop offset="0%" stop-color="#FF8C00"/>
@@ -79,7 +82,7 @@
         </div>
 
         <div class="highlight reveal" id="about">
-          <h3>Resume Profesional</h3>
+          <h3>Ringkasan Profesional</h3>
           <p>Lebih dari 8 tahun pengalaman mengajar dan penelitian dalam Sistem Informasi, Manajemen Data, dan Transformasi Digital. Terbiasa mengembangkan materi perkuliahan berbasis kompetensi, memimpin proyek penelitian terapan, serta konsultasi untuk mitra industri dan pemerintahan.</p>
 
           <div class="key-stats">
